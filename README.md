@@ -6,7 +6,13 @@ Show Windows alerts for Phantasy Star Online 2 Official NA site's news.
 
 Select [Releases](https://github.com/PabloWestphalen/pso2-notifications/releases) and download the latest pso2-notifications.zip
 
-Run pso2-notifications.exe
+Extract the zip and run pso2-notifications.exe
+
+## Known Issues / WIP
+
+⚠ Notifications are shown as if from an app named [SnoreToast](https://github.com/KDE/snoretoast). This is the library used for displaying notifications on Windows 10 from Node. Work is under way in figuring out a better way to uniquely identify the notifier.
+
+⚠ Launching the app brings up a mildly annoying console window. Work is under way for surpressing it.
 
 ## For developers
 
@@ -29,3 +35,8 @@ npm install
 
 - `npm start` Launch script
 - `npm run build` Build executable
+
+
+
+
+
