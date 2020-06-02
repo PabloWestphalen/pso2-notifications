@@ -2,6 +2,8 @@
 
 Show Windows alerts for Phantasy Star Online 2 Official NA site's news.
 
+![Screenshot](https://i.ibb.co/LPJtLP7/notification-example.png)
+
 ## Usage
 
 Select [Releases](https://github.com/PabloWestphalen/pso2-notifications/releases) and download the latest pso2-notifications.zip
