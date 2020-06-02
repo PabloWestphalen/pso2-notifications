@@ -1,0 +1,33 @@
+{
+  "name": "pso2-notifications",
+  "version": "1.0.0",
+  "description": "Show Windows alerts for Phantasy Star Online 2 Official NA site's news.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "pkg . --targets latest-win-x64 --out-path dist --options title=\"PSO Notifications\"",
+    "postbuild": "echo F|xcopy \"lib\\SnoreToast.exe\" \"dist\\lib\\SnoreToast.exe\" /Y"
+  },
+  "bin": {
+    "app": "./src/index.js"
+  },
+  "keywords": [
+    "node",
+    "scrapper",
+    "pso2",
+    "news"
+  ],
+  "author": "Pablo Westphalen",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "node-notifier": "^7.0.1",
+    "opn": "^6.0.0",
+    "pkg": "^4.4.8"
+  }
+}
